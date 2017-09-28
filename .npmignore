@@ -1,0 +1,7 @@
+src/
+build/spec/
+uml/
+CHANGELOG.md
+tslint.json
+tsconfig.json
+.gitignore
