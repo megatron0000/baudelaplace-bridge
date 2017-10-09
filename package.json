@@ -9,10 +9,14 @@
   "author": "Vitor Arruda",
   "license": "MIT",
   "devDependencies": {
+    "@types/mongoose": "4.7.23",
     "rimraf": "2.6.2",
     "tslint": "5.7.0",
     "typescript": "2.5.2"
   },
   "main": "./build/main/index.js",
-  "types": "./build/main/index.d.ts"
+  "types": "./build/main/index.d.ts",
+  "dependencies": {
+    "bson-objectid": "1.2.0"
+  }
 }

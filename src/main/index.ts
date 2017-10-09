@@ -10,6 +10,11 @@ import { AuthErrorEnum } from './messages.module/auth-error-enum'
 import { ServerMessage } from './messages.module/server-message'
 import { GeneralError } from './messages.module/general-error'
 import { AuthError } from './messages.module/auth-error'
+import { ObjectIdServer } from './models.module/object-id-server'
+import { ObjectIdClient } from './models.module/object-id-client'
+import { ObjectId } from './models.module/object-id'
+import { OwnershipError } from './messages.module/ownership-error'
+import { objIdQ } from './models.module/obj-id-q'
 
 export {
     User,
@@ -23,5 +28,10 @@ export {
     AuthError,
     SuccessMessage,
     ServerDownError,
-    UnauthorizedError
+    UnauthorizedError,
+    ObjectIdServer,
+    ObjectIdClient,
+    ObjectId,
+    OwnershipError,
+    objIdQ
 }

@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## 2.0.0
+
+- `ObjectId` types for client and server
+- `objIdQ(...)` for detection
+- Adds `OwnershipError`
+- Models which have document references are now typed `Document|ObjectId` to account for both populated and unpopulated references
+
 ## 1.0.0
 
 - Models for database

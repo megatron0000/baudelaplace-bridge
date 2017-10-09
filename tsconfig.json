@@ -13,6 +13,7 @@
     "sourceMap": true,
     "target": "es5",
     "noStrictGenericChecks": true,
+    "noUnusedLocals": true,
     "outDir": "./build",
     "rootDir": "./src"
   },
