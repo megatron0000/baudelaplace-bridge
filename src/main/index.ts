@@ -1,20 +1,21 @@
-import { UnauthorizedError } from './messages.module/unauthorized-error'
+import { AuthError } from './messages.module/auth-error'
+import { AuthErrorEnum } from './messages.module/auth-error-enum'
+import { GeneralError } from './messages.module/general-error'
+import { OwnershipError } from './messages.module/ownership-error'
 import { ServerDownError } from './messages.module/server-down-error'
-import { BauCard } from './models.module/bau-card'
+import { ServerMessage } from './messages.module/server-message'
 import { SuccessMessage } from './messages.module/success-message'
+import { UnauthorizedError } from './messages.module/unauthorized-error'
+import { BauCard } from './models.module/bau-card'
+import { BauTag } from './models.module/bau-tag'
+import { MinecraftStep } from './models.module/minecraft-step'
+import { objIdQ } from './models.module/obj-id-q'
+import { ObjectId } from './models.module/object-id'
+import { ObjectIdClient } from './models.module/object-id-client'
+import { ObjectIdServer } from './models.module/object-id-server'
 import { User } from './models.module/user'
 import { RegisterCredentials } from './register-credentials'
-import { MinecraftStep } from './models.module/minecraft-step'
-import { BauTag } from './models.module/bau-tag'
-import { AuthErrorEnum } from './messages.module/auth-error-enum'
-import { ServerMessage } from './messages.module/server-message'
-import { GeneralError } from './messages.module/general-error'
-import { AuthError } from './messages.module/auth-error'
-import { ObjectIdServer } from './models.module/object-id-server'
-import { ObjectIdClient } from './models.module/object-id-client'
-import { ObjectId } from './models.module/object-id'
-import { OwnershipError } from './messages.module/ownership-error'
-import { objIdQ } from './models.module/obj-id-q'
+import { root } from './resource-routes'
 
 export {
     User,
@@ -33,5 +34,6 @@ export {
     ObjectIdClient,
     ObjectId,
     OwnershipError,
-    objIdQ
+    objIdQ,
+    root
 }

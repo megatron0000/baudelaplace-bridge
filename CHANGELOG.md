@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.1.0 (6/1/2018)
+
+- DSL for specifying existing routes
+
 ## 2.0.0
 
 - `ObjectId` types for client and server
